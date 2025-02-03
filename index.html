@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="game-container">
+        <div id="instructions" data-testid ="gameInstructions">
+            <strong class="bold">Instructions: </strong><p>
+            <p>Select the button with same color as the target.</p>
+        </div>
+        <div id="game-head">
+            <div id="score-start">
+                <div data-testid ="score" id="score">score: <span id="count" class="bold">0</span></div>
+            </div>
+        </div>
+        <div id="message-box">
+            <div data-testid ="gameStatus" id="message" class="bold">Play the color match game!</div>
+        </div>
+        <div id="game-body">
+            <div data-testid ="colorBox" id="color-box">target</div>
+            <div id="color-btns">
+                <button data-testid ="colorOption" class="select-btn">Pick</button>
+                <button data-testid ="colorOption" class="select-btn">Pick</button>
+                <button data-testid ="colorOption" class="select-btn">Pick</button>
+                <button data-testid ="colorOption" class="select-btn">Pick</button>
+                <button data-testid ="colorOption" class="select-btn">Pick</button>
+                <button data-testid ="colorOption" class="select-btn">Pick</button>
+            </div>
+            <button data-testid ="newGameButton" id="restart-btn">
+                New game
+                <img id='restart-img' src="restart.svg" alt="restart-icon">
+             </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

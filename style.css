@@ -36,7 +36,7 @@ body{
     font-family: "Roboto Slab", serif;
     color: var(--accent);
     background-color:var(--accent-l);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #game-container{
@@ -64,7 +64,7 @@ body{
     height:auto;
     display:flex;
     flex-direction:column;
-    background-color:#ffffffb7;
+    background-color:#ffffff84;
     border-radius:10px;
     padding:10px;
     gap:2px;

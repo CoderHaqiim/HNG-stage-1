@@ -129,7 +129,7 @@ body{
     background-color:indigo;
     position:relative;
     cursor:pointer;
-    box-shadow:0px 0px 5px -2px black;
+    box-shadow:0px 4px 3px -2px #2a2626;
 }
 
 .select-btn:hover{

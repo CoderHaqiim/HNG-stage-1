@@ -7,9 +7,9 @@ const message = document.querySelector('#message')
 const buttonColors = new Set()
 
 const predefinedColors = [
-    "#970bfa","#b50dec","#2a0246",
-    "#422b52","#8b5bae","#cd93f5",
-    "#68666a","#b6b5b7","#540c6c"
+    "#f63030","#3a3ac1","#2b6d2b",
+    "#880d88","#2582aa","#e18916",
+    "#8a84a9","#20381e","#f68e9f"
 ]
 
 let randomColor;
